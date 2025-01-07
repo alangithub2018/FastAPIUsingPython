@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+.tox/
+nosetests.xml
+test-results.xml
+
+# FastAPI specific
+instance/
+*.db
+*.db-journal
+
+# Pytest cache
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+
+# Build / dist
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.spec
+
+# HTML coverage reports
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Profiling data
+.prof
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore env files
+.env.local
+.env.development
+.env.production
+
+# Custom
+SECRET_KEY
+config.json
